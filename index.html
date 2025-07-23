@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meiring's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container-fluid p-0 d-flex text-center">
+        <div class="d-flex flex-column bg-body-tertiary sidebar expanded" id="sidebar">
+            <ul class="nav nav-pills flex-column vh-100">                    
+                <li class="nav-item">
+                    <a href="#" class="nav-link active py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#me">
+                        <i class="bi bi-person-circle h4"></i>
+                        <span>About Me</span>
+                    </a>
+                </li>                   
+                <li class="nav-item">
+                    <a href="#" class="nav-link py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#cv">
+                        <i class="bi bi-file-earmark-person h4"></i>
+                        <span>Resume/CV</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#projects">
+                        <i class="bi bi-hammer h4"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item" id="toggleSidebar">
+                    <button class="nav-link btn btn-link p-3 text-dark text-decoration-none w-100">
+                        <i class="bi bi-arrows-collapse-vertical h4"></i>
+                        <span>Collapse</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content w-100">
+            <div class="tab-pane fade show active p-4" id="me">               
+                <div class="container p-5">
+                    <div class="row row-cols-1 g-5">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="container">
+                                    <img src="Images/Meiring.jpg" class="rounded-circle img-responsive" alt="img" width="200" height="200">                      
+                                    <h2 class="text-decoration-underline">Meiring van Niekerk</h2>
+                                    <h3 class="text-decoration-underline">Junior Software Developer</h3>
+                                    <p class="lead">Hi, my name is Meiring. I’m a passionate software developer focused on creating digital experiences that are both visually engaging and user-friendly. I take pride in designing intuitive interfaces that not only function seamlessly but also delight and inspire users.</p>                      
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="container">
+                                    <div style="display: flex; justify-content: center;">
+                                        <div style="display: block;">
+                                            <h2 class="text-decoration-underline" style="text-align: left">Contact details</h2>
+                                            <ul class="lead" style="text-align: left">
+                                                <li>Email: <a href="mailto:Meiring0505@gmail.com">Meiring0505@gmail.com</a></li>
+                                                <li>Phone number: (+27) 067 028 7985</li>
+                                                <li>Cape Town, South Africa</li>
+                                                <li>LinkedIn: <a
+                                                        href="https://www.linkedin.com/in/meiring-van-niekerk">https://www.linkedin.com/in/meiring-van-niekerk</a>
+                                                </li>
+                                                <li>GitHub: <a href="https://github.com/Meiring47817909">https://github.com/Meiring47817909</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col">
+                            <div class="card shadow-sm">                                
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <h2 class="text-decoration-underline">Hobby</h2>
+                                <p class="lead">Squash — a fun, high-energy sport that challenges your reflexes, sharpens your focus, and keeps you fit! I am a member at <a href="https://community-services.blaauwberg.net/sport-clubs/squash-clubs-western-cape/kuilsriver-squash-club">Kuils River Squash club.</a></p>                                    </div>
+                                <div class="col-auto d-sm-block flex">
+                                    <img src="Images//Squash.webp" class="featurette-image" style="height: 300px; width: 100%;" alt="img">
+                                </div>                            
+                            </div>
+                        </div>                      
+                    </div>
+                </div>               
+            </div>
+            <div class="tab-pane fade show" id="cv">
+                <iframe src="Meiring_van_Niekerk_CV.pdf" frameborder="0" style="display: block;" class="w-100 vh-100"></iframe>
+            </div>
+            <div class="tab-pane fade show" id="projects">
+                <div class="container p-5">
+                    <div class="row row-cols-1 row-cols-lg-2 g-5">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="Images/Dreamflix_Cinema.jpeg" alt="img">
+                                <div class="card-body">
+                                    <h3 class="text-decoration-underline">DREAMFLIX Cinema</h3>
+                                    <p class="card-text lead">DREAMFLIX Cinema is a hypothetical cinema that requires a desktop application for employees to book tickets for customers and reporting functionality for strategic decision making. Additionally, employees must be managed, and new movies and employees can be added.</p>
+                                    <h4 style="text-align: left">Visual studio 2022:</h4>
+                                    <ul class="lead" style="text-align: left">
+                                        <li>Windows Forms App</li>
+                                    </ul>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button onclick="document.location='https://github.com/CMPG223-GROUP6/CMPG223-Project'"
+                                                type="button"
+                                                class="btn btn-lg btn-outline-secondary">
+                                            View repository
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="Images/Brighton_Medical.jpeg" alt="img">
+                                <div class="card-body">
+                                    <h3 class="text-decoration-underline">Brighton Medical</h3>
+                                    <p class="card-text lead">This application was developed for a hypothetical medical practice called Brighton Medical that would like to create desktop and web applications that would allow people to search, book and view doctor’s appointments.</p>
+                                    <h4 style="text-align: left">Visual studio 2022:</h4>
+                                    <ul class="lead" style="text-align: left">
+                                        <li>Windows Forms App</li>
+                                        <li>ASP.NET Web Application (.NET Framework)</li>
+                                    </ul>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button onclick="document.location='https://github.com/Meiring47817909/MedicalPractice'"
+                                                type="button"
+                                                class="btn btn-lg btn-outline-secondary">
+                                            View repository
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="Images/Carwash_business.jpeg" alt="img">
+                                <div class="card-body">
+                                    <h3 class="text-decoration-underline">Carwash business model</h3>
+                                    <p class="card-text lead">This project entails the necessary SQL scripts to operate a carwash business that stores employee, manager, car, customer, washer and transaction information. Includes Table and View create statements with supplemented data and queries for reporting purposes.</p>
+                                    <h4 style="text-align: left">Oracle:</h4>
+                                    <ul class="lead" style="text-align: left">
+                                        <li>SQL</li>
+                                    </ul>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button onclick="document.location='https://github.com/Meiring47817909/CarwashBusinessModel'"
+                                                type="button"
+                                                class="btn btn-lg btn-outline-secondary">
+                                            View repository
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                                  
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="site.js" asp-append-version="true"></script>
+</body>
+</html>
