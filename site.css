@@ -1,4 +1,10 @@
-﻿.card {
+﻿.fa-bolt-lightning {
+    color: gold;
+}
+.fa-linkedin {
+    color: skyblue;
+}
+.card {
     transition: all 0.3s;
 }
 .card:hover {
@@ -12,7 +18,6 @@
     border-bottom: 4px solid #0d6efd !important;
     padding-bottom: 16px !important;
 }
-
 .nav .nav-item a.nav-link.active {
     color: #fff !important;
 }
