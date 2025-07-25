@@ -41,10 +41,10 @@
     gap: 10px;
 }
 #me {
-    background-image: url('Images/Background_about.jpg');
+    background-image: url('Images/Background.png');
 }
 #projects {
-    background-image: url('Images/Background_project.png');
+    background-image: url('Images/Background.png');
 }
 @media (max-width: 767px) {
     .sidebar {
