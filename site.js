@@ -18,9 +18,9 @@ window.onload = function(){
 function addBackground() {
     const page = document.getElementById("pageBackground");
     page.classList.add("background");
-}
+};
 
 function removeBackground() {
     const page = document.getElementById("pageBackground");
     page.classList.remove("background");
-}
+};
