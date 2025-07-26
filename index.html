@@ -13,19 +13,19 @@
         <div class="d-flex flex-column bg-body-tertiary sidebar expanded" id="sidebar">
             <ul class="nav nav-pills flex-column vh-100">                    
                 <li class="nav-item">
-                    <a href="#" class="nav-link active py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#me">
+                    <a href="#" class="nav-link active py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#me" onclick="addBackground()">
                         <i class="fa-solid fa-circle-user h3"></i>
                         <span>About Me</span>
                     </a>
                 </li>                   
                 <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#cv">
+                    <a href="#" class="nav-link py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#cv" onclick="removeBackground()">
                         <i class="fa-solid fa-file h3"></i>
                         <span>Resume/CV</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#projects">
+                    <a href="#" class="nav-link py-3 border-bottom rounded-0 text-black" data-bs-toggle="tab" data-bs-target="#projects" onclick="addBackground()">
                         <i class="fa-solid fa-diagram-project h3"></i>
                         <span>Projects</span>
                     </a>
@@ -38,7 +38,7 @@
                 </li>
             </ul>
         </div>
-        <div class="tab-content w-100">
+        <div class="tab-content w-100" id="pageBackground">
             <div class="tab-pane fade show active" id="me">               
                 <div class="container p-5">
                     <div class="row row-cols-1 row-cols-lg-2 g-5">

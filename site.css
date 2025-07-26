@@ -40,11 +40,11 @@
     justify-content: flex-start;
     gap: 10px;
 }
-#me {
+.background {
     background-image: url('Images/Background.png');
-}
-#projects {
-    background-image: url('Images/Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 @media (max-width: 767px) {
     .sidebar {
