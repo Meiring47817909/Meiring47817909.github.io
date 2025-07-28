@@ -47,12 +47,16 @@
     background-size: 100% 100%;
 }
 @media (max-width: 767px) {
+    .pageMargin {
+        margin-bottom: 60px;
+    }
+
     .sidebar {
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100% !important;
-        height: 60px !important;
+        height: 60px !important;       
         z-index: 999;
     }
 
@@ -67,7 +71,7 @@
     .sidebar .nav-link span, .sidebar .nav-link small {
         display: none !important;
     }
-
+    
     .border-top {
         border-top: unset !important;
     }
